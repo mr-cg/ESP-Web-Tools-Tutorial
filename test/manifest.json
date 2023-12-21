@@ -5,10 +5,11 @@
         "chipFamily": "ESP32",
         "improv": false,
         "parts": [
-          { "path": "ledfade.ino.bootloader.bin", "offset": 4096 },
-          { "path": "ledfade.ino.partitions.bin", "offset": 32768 },
+          { "path": "EEG.ino.bootloader.bin", "offset": 4096 },
+          { "path": "EEG.ino.partitions.bin", "offset": 32768 },
           { "path": "boot_app0.bin", "offset": 57344 },
-          { "path": "ledfade.ino.bin", "offset": 65536 }
+          { "path": "EEG.ino.bin", "offset": 65536 },
+          { "path": "EEG.spiffs.bin", "offset": 2686976 }
         ]
       }
     ]
